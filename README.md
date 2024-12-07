@@ -23,8 +23,8 @@ The Gym Management System (Gym MS) is a comprehensive solution for gyms and fitn
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript, ReactJS or Angular
-- **Backend**: Python (Django, Flask) or PHP (Laravel)
+- **Frontend**: HTML5, CSS3
+- **Backend**: Python (Django, Flask) o
 - **Database**: MySQL or PostgreSQL
 - **Server**: Apache or Nginx
 - **Payment Integration**: PayPal, Stripe
@@ -45,40 +45,22 @@ To set up the Gym Management System locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/gym-management-system.git
-   ```
+   
+2.Extract the file and copy gym folder
 
-2. Install the necessary dependencies for both frontend and backend:
-   - For **frontend** (ReactJS or Angular):
-     ```bash
-     npm install
-     ```
+3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
 
-   - For **backend** (Django or Laravel):
-     ```bash
-     pip install -r requirements.txt  # For Django
-     # or
-     composer install  # For Laravel
-     ```
+4.Open PHPMyAdmin (http://localhost/phpmyadmin)
+
+5.Create a database with name gymdb
+
+6.Import gymdb.sql file(given inside the zip package in SQL file folder)
+
+7.Run the script http://localhost/gym
 
 3. Set up the database:
    - For **MySQL** or **PostgreSQL**, create a database and update the connection settings in the backend configuration file.
 
-4. Run the backend server:
-   - For **Django**:
-     ```bash
-     python manage.py runserver
-     ```
-   - For **Laravel**:
-     ```bash
-     php artisan serve
-     ```
-
-5. Run the frontend:
-   ```bash
-   npm start
-   ```
-
-6. Open your browser and navigate to `http://localhost:3000` (or your specified port) to access the Gym Management System.
 
 ## Contributing
 
